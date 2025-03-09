@@ -1,0 +1,31 @@
+name: flutter_camera
+description: A new Flutter project
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+# ---------------------------------------------------------
+# กำหนด dependencies: มีบล็อกเดียว
+# ---------------------------------------------------------
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # กล้อง
+  camera: ^0.11.0
+  camera_web: ^0.3.5   
+  
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # เพิ่มแพ็กเกจ dev อื่น ๆ ตรงนี้
+  # lint: ^1.0.0
+
+flutter:
+  uses-material-design: true
